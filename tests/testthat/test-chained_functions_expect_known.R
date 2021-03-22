@@ -39,7 +39,6 @@ test_that("check file values for general preprocessing", {
   suppressWarnings(testthat::expect_known_value(
     task3_preprocessing_level2, tname("task3_level2")))
 
-  # cs_es_table <- data.matrix(cs_es_table)
   chisq1 <- chisq_function(cs_es_table)
   suppressWarnings(testthat::expect_known_value(
       chisq1, tname("chisq_level1")))
