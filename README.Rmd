@@ -1,5 +1,11 @@
 ---
+title: "messydataPackage"
+author: "Edward Gillian"
+date: "23/03/2021"
 output: github_document
+---
+
+
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -12,8 +18,6 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-
-# messydatapackage
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -33,10 +37,10 @@ Finally, automated testing is done through chained test functions using `testtha
 
 ## Installation
 
-You can install the released version of messydatapackage from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of messydatapackage with:
 
 ``` r
-install.packages("messydatapackage")
+devtools::install_github("EdwardJGillian/messydatapackage")
 ```
 
 
